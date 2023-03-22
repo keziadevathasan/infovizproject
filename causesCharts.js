@@ -268,7 +268,7 @@ function showExcitementChart() {
         options: excOptions
     });
 
-    //currentMiniGraph = excBar;
+    currentMiniGraph = 'excBar';
 }
 
 /*-----------------------------------------------------------------------------*/
