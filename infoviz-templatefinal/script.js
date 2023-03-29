@@ -94,25 +94,26 @@ const chartOptions = {
 	},
 	responsive: true,
 	maintainAspectRatio: true,
-	scales: {
-		xAxes: [{
-			stacked: true,
-			scaleLabel: {
-				display: true,
-				labelString: 'Number of Weeks into Program'
-			}
-		}],
-		yAxes: [{
-			stacked: true,
-			scaleLabel: {
-				display: true,
-				labelString: 'Occurrences of Emotion'
-			}
-		}]
-	},
+	// scales: {
+	// 	xAxes: [{
+	// 		stacked: true,
+	// 		scaleLabel: {
+	// 			display: true,
+	// 			labelString: 'Number of Weeks into Program'
+	// 		}
+	// 	}],
+	// 	yAxes: [{
+	// 		stacked: true,
+	// 		scaleLabel: {
+	// 			display: true,
+	// 			labelString: 'Occurrences of Emotion'
+	// 		}
+	// 	}]
+	// },
 	plugins: {
 		legend: {
-			display: true
+			display: true,
+			text: 'Number of Weeks into Program'
 		}
 	}
 	

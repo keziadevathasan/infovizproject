@@ -313,6 +313,11 @@
     font-size: larger;
   }
 
+  .text {
+    justify-content: center;
+    text-align: center;
+  }
+
   .phase-title{
     color: #fff
     ;
@@ -358,6 +363,7 @@
     width: 100%;
     height: auto;
   }
+
   
   .main__content h1 {
     font-size: 4rem;
@@ -781,6 +787,18 @@
     margin-top: 20px;
     display: block;
   }
+
+
+  .circle, .line {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.line {
+  transform: scaleX(0);
+}
+
+  
   
   
   
